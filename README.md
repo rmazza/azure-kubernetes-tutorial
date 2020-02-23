@@ -14,4 +14,12 @@ In this tutorial, you:
   ```
   dotnet new webapi -n SampleAPI -o .\sample-api
   ```
+- Change directory into the project
+  ```
+  cd .\sample-api
+  ```
 
+- Run the sample-api
+  ```
+  dotnet run
+  ```
