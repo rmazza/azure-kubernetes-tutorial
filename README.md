@@ -1,13 +1,17 @@
 # azure-kubernetes-tutorial
 
-asdfasdfasdfasdf
 A simple tutorial on setting up, creating a container and deploying to a kubernetes cluster on Azure
 
-This tutorial shows how to run an ASP.NET Core app in Docker containers.
+This tutorial shows how to run an ASP.NET Core app in a Docker container. Then deploy the container to Azure Container Registry and an Azure Kubernetes Cluster.
 
 In this tutorial, you:
-> [!div class="checklist"]
-> * Build and ASP.NET Core web API
-> * Run the sample app locally
-> * Run the sample app in Linux containers
-> * Build and deploy manually
+> * Create ASP.NET Core web API
+> * Run the api locally
+> * Build & run the api in Docker Linux containers
+
+
+- Create ASP.NET Core Web API
+  ```
+  dotnet new webapi -n SampleAPI -o .\sample-api
+  ```
+
