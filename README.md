@@ -31,3 +31,7 @@ In this tutorial, you:
   ```
   dotnet run
   ```
+- Create Dockerfile
+  ```
+  New-Item Dockerfile
+  ```
