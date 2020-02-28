@@ -55,3 +55,7 @@ In this tutorial, you:
   COPY --from=build-env /app/out .
   ENTRYPOINT ["dotnet", "TutorialAPI.dll"]
   ```
+- Docker build
+  ```
+  docker build -f .\Dockerfile -t api-latest .
+  ```
