@@ -15,6 +15,7 @@ In this tutorial, you:
 > * Run the api locally
 > * Build & run the api in Docker Linux containers
 
+## dotnet
 - Check the .NET Core CLI version
   ```
   dotnet --version
@@ -31,6 +32,7 @@ In this tutorial, you:
   ```
   dotnet run
   ```
+## docker
 - Create Dockerfile
   ```
   New-Item Dockerfile
@@ -70,4 +72,13 @@ In this tutorial, you:
 - Docker containers
   ```
   docker ps -a
+  ```
+- Open web browser and navigate to
+  ```
+  http://localhost:8080/weatherforecast
+  ```
+## azure
+- Login
+  ```
+  az login
   ```
