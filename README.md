@@ -57,7 +57,7 @@ In this tutorial, you:
   ```
 - Docker build
   ```
-  docker build -f .\Dockerfile -t api-latest .
+  docker build -f .\Dockerfile -t api:latest .
   ```
 - Docker images list
   ```
@@ -65,7 +65,7 @@ In this tutorial, you:
   ```
 - Docker run
   ```
-  docker run -d -p 8080:80 --name api api-latest:latest
+  docker run -d -p 8080:80 --name api api:latest
   ```
 - Docker containers
   ```
