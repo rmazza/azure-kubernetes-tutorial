@@ -59,7 +59,15 @@ In this tutorial, you:
   ```
   docker build -f .\Dockerfile -t api-latest .
   ```
+- Docker images list
+  ```
+  docker images
+  ```
 - Docker run
   ```
   docker run -d -p 8080:80 --name api api-latest:latest
+  ```
+- Docker containers
+  ```
+  docker ps -a
   ```
